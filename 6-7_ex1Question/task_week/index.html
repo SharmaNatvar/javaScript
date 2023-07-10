@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Week day</h1>
+    <h3>enter your number in program : <span id="weekDay"></span></h3>
+
+
+    <script>
+        var num = 3;
+        var name="";
+        if(num==1){
+            name="1 day : Sunday";
+        }
+        else if(num==2){
+            name="2 day : Monday";
+        }
+        else if(num==3){
+            name="3 day : Tuesday";
+        }
+        else if(num==4){
+            name="4 day : Wednesday";
+        }
+        else if(num==5){
+            name="5 day : Thursday";
+        }
+        else if(num==6){
+            name="6 day : Friday";
+        }
+        else if(num==7){
+            name="7 day : Saturday";
+        }
+        else{
+            name="invalid number";
+        }
+        document.getElementById("weekDay").innerHTML=name;
+    </script>
+</body>
+</html>
