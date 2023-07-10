@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-size: 48px;">Months Name</h1>
+    <h3>enter your number in program = <span id="month"></span></h3>
+
+
+    <script>
+        var value=10;
+        var name=""
+        switch(value){
+            case 1:
+                name=" 1 month : January- 31 days";
+                break;
+                
+            case 2:
+                name="2 month : February - 28 days in a common year and 29 days in leap years";
+                break;
+
+            case 3:
+                name="3 month : March- 31 days";
+                break;
+
+            case 4:
+                name="4 month : April- 30 days";
+                break;
+            
+            case 5:
+                name="5 month : May- 31 days";
+                break;
+            
+            case 6:
+                name="6 month : June- 30 days";
+                break;
+
+            case 7:
+                name="7 month : July- 31 days";
+                break;
+
+            case 8:
+                name="8 month : August- 31 days";
+                break;
+
+            case 9:
+                name="9 month : September- 30 days";
+                break;
+
+            case 10:
+                name="10 month : October- 31 days";
+                break;
+
+            case 11:
+                name="11 month : November - 30 days";
+                break;
+
+            case 12:
+                name="12 month : December - 31 days";
+                break;
+                
+            default:
+                name="invalid number"
+                break;
+            }
+        document.getElementById("month").innerHTML=name;
+    </script>
+</body>
+</html>
